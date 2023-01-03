@@ -24,7 +24,6 @@ const fetchCoins = createAsyncThunk(GET_COINS, async (pos, { dispatch }) => {
   const coins = data.map((key) => ({
     id: key,
   }));
-  console.log(data);
   dispatch({
     type: GET_COINS,
     unique: coins,
