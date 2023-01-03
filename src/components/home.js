@@ -10,16 +10,15 @@ const Home = () => {
     dispatch(fetchCoins());
   }, [dispatch]);
   return (
-    <div className="flex jstCnt aliCnt flxWrp gap10px">
-      {coins.map((coins) => (
+    <div>
+      {coins.map((coin) => (
         <Display
-          key={coins.id.id}
-          img={coins.id.image}
-          id={coins.id.id.toUpperCase()}
-          name={coins.id.name}
-          symbol={coins.id.symbol.toUpperCase()}
-          atl={coins.id.atl}
-          price={coins.id.current_price}
+          key={coin.id.id}
+          img={coin.id.image}
+          id={coin.id.id}
+          name={coin.id.name}
+          symbol={coin.id.symbol}
+          price={coin.id.current_price}
         />
       ))}
     </div>

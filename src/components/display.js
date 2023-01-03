@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const Display = ({
   name, price, symbol, img,
 }) => (
-  <section className="sec1 ">
-    <img className="img" src={img} alt={`${name}icon`} />
+  <section>
+    <img src={img} alt={`${name}icon`} />
     <p>{name}</p>
     <p>{symbol}</p>
     <p>

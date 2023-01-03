@@ -5,7 +5,7 @@ import Home from './components/home';
 import Details from './components/Details';
 
 const App = () => (
-  <div className="App">
+  <div>
     <Navbar />
     <div>
       <Routes>
