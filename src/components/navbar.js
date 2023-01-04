@@ -2,12 +2,11 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
-    <div>
-      <h3>CRYPTO</h3>
+    <div className="navDiv">
+      <Link className="link" to="/">&times;</Link>
     </div>
     <div>
-      <Link to="/">Home</Link>
-      <Link to="/display">Display</Link>
+      <h3>CRYPTO</h3>
     </div>
   </nav>
 );
