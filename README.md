@@ -195,7 +195,7 @@ If you like this project, you can give me a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Nelson Sakwa for the Original idea of his project that inspired the design of my project
+I would like to thank [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) for the Original idea of his project on Behance that inspired the design of my project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
