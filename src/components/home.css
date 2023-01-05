@@ -1,123 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .main_image {
-    width: 100%;
-    height: 30vh;
+  width: 100%;
+  height: 30vh;
 }
 
 .searchDiv {
-    display: flex;
-    background-color: #fff;
-    border-radius: 1rem;
-    align-items: center;
-    padding: 0% 3% 0% 3%;
-    width: 70%;
-    margin: 1% 15% 1% 15%;
-    height: 1.8rem;
+  display: flex;
+  background-color: #fff;
+  border-radius: 1rem;
+  align-items: center;
+  padding: 0% 3% 0% 3%;
+  width: 70%;
+  margin: 1% 15% 1% 15%;
+  height: 1.8rem;
 }
 
-.searchBar{
-    border: none;
-    outline: none;
-    font-family: 'Lato', sans-serif;
-    width: 90%;
-    border-radius: 1rem;
+.searchBar {
+  border: none;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+  width: 90%;
+  border-radius: 1rem;
 }
 
 .searchIcon {
-    color: rgb(94, 94, 94);
+  color: rgb(94, 94, 94);
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .item {
-    background-color: #fff;
-    border-radius: 1rem;
-    margin: 2%;
-    padding: 0.5rem;
-    width: 41%;
-    text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 2%;
+  padding: 0.5rem;
+  width: 41%;
+  text-align: center;
 }
 
 .item:hover {
-    box-shadow: 5px 5px 10px rgb(150, 0, 92);
+  box-shadow: 5px 5px 10px rgb(150, 0, 92);
 }
 
 .coinLink {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media (min-width: 500px) {
-    .item {
-        padding: 0.5rem;
-        width: 26%;
-    }
-    
-    .main_image {
-        height: 37vh;
-    }
+  .item {
+    padding: 0.5rem;
+    width: 26%;
+  }
+
+  .main_image {
+    height: 37vh;
+  }
 }
 
 @media (min-width: 650px) {
-    .item {
-        padding: 0.5rem;
-        margin: 1.2%;
-        width: 20%;
-    }
+  .item {
+    padding: 0.5rem;
+    margin: 1.2%;
+    width: 20%;
+  }
 
-    .main_image {
-        height: 45vh;
-    }
+  .main_image {
+    height: 45vh;
+  }
 }
 
 @media (min-width: 815px) {
-    .item {
-        padding: 0.5rem;
-        margin: 1%;
-        width: 16%;
-    }
+  .item {
+    padding: 0.5rem;
+    margin: 1%;
+    width: 16%;
+  }
 
-    .main_image {
-        height: 50vh;
-    }
+  .main_image {
+    height: 50vh;
+  }
 }
 
 @media (min-width: 1000px) {
-    .item {
-        padding: 0.5rem;
-        margin: 0.8%;
-        width: 11%;
-    }
+  .item {
+    padding: 0.5rem;
+    margin: 0.8%;
+    width: 11%;
+  }
 
-    .main_image {
-        height: 55vh;
-    }
+  .main_image {
+    height: 55vh;
+  }
 }
 
 @media (min-width: 1200px) {
-    .item {
-        padding: 0.5rem;
-        margin: 0.6%;
-        width: 10%;
-    }
+  .item {
+    padding: 0.5rem;
+    margin: 0.6%;
+    width: 10%;
+  }
 
-    .main_image {
-        height: 60vh;
-    }
+  .main_image {
+    height: 60vh;
+  }
 }
 
 @media (min-width: 1300px) {
-    .item {
-        padding: 0.5rem;
-        margin: 0.6%;
-        width: 10%;
-    }
+  .item {
+    padding: 0.5rem;
+    margin: 0.6%;
+    width: 10%;
+  }
 
-    .main_image {
-        height: 70vh;
-    }
+  .main_image {
+    height: 70vh;
+  }
 }
