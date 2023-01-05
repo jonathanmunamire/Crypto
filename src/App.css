@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
-  background-color: rgb(43, 226, 165);
+  background-color: rgb(219, 37, 128);
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }

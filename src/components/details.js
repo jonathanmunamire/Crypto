@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { useLocation } from 'react-router-dom';
 import React from 'react';
+import './details.css';
 
 const Details = () => {
   const location = useLocation();
@@ -13,14 +14,16 @@ const Details = () => {
   };
   return (
     <div>
-      <div className="imgDtDv">
-        <img className="imgDt" src={state.image} alt="img" />        
+      <div className="detail_image_section">
+        <img className="detail_image" src={state.image} alt="img" />        
       </div>
-      <div className="detailPage">
+      <div className="detail_page">
         <span>
+          name:
           {` ${state.name}`}
         </span>
         <span>
+          symbol:
           {` ${state.symbol.toUpperCase()}`}
         </span>
         <span>
