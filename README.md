@@ -55,17 +55,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 React Template <a name="about-project"></a>
+# 📖 Crypto <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**React Template** is a ...
+**Crypto** is a project allowing a user to get information and updates about various cryptocurrencies
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> React
+### React <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -78,8 +74,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[key_feature_1]**
 - **[key_feature_2]**
 - **[key_feature_3]**
@@ -90,9 +84,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link]()
+- [Live Demo Link](https://crypto-jonmun.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,8 +116,8 @@ Clone this repository to your desired folder:
 Clone this repository to your desired folder:
 
 ```sh
-  cd Math-Magician
-  git clone https://github.com/jonathanmunamire/Math-Magician.git
+  cd Crypto
+  git clone https://github.com/jonathanmunamire/Crypto.git
 ```
 
 ### Install
@@ -195,9 +187,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, you can give me a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +195,13 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Nelson Sakwa for the Original idea of his project that inspired the design of my project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
