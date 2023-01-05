@@ -1,4 +1,4 @@
-import Coins, { fetchCoins } from "../redux/currency/currency";
+import Coins, { fetchCoins } from '../redux/currency/currency';
 
 const initial = {
   crypto: [
