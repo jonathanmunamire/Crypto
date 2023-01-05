@@ -11,7 +11,7 @@ export const fetchCoins = createAsyncThunk('coins', async () => {
   return data;
 });
 
-const coinsSlice = createSlice({
+const Coins = createSlice({
   name: 'coins',
   initialState,
   reducers: {},
@@ -33,4 +33,4 @@ const coinsSlice = createSlice({
   },
 });
 
-export default coinsSlice.reducer;
+export default Coins.reducer;
