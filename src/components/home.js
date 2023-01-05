@@ -1,32 +1,65 @@
-import { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchCoins } from '../redux/coin/coin';
+import { NavLink } from 'react-router-dom';
+import { FaSearch } from 'react-icons/fa';
+import { fetchCoins } from '../redux/currency/currency';
 import Display from './display';
 
 const Home = () => {
   const dispatch = useDispatch();
-  const coins = useSelector((state) => state.coins);
+
+  const { coins, status } = useSelector((state) => state.coins);
+  const [search, setSearch] = useState('');
   useEffect(() => {
-    dispatch(fetchCoins());
-  }, [dispatch]);
+    if (status === null) {
+      dispatch(fetchCoins());
+    }
+  }, [status, dispatch]);
+
   return (
     <div>
-      {coins.map((coin) => (
-        <div key={coin.id.id}>
-          <NavLink state={coin} to="/display">
-            <Display
-              key={coin.id.id}
-              img={coin.id.image}
-              id={coin.id.id}
-              name={coin.id.name}
-              symbol={coin.id.symbol}
-              atl={coin.id.atl}
-              price={coin.id.current_price}
-            />
-          </NavLink>
+      {status === 'pending' ? (
+        <div className="pending">
+          <p className="round" />
+          <h3>LOADING...</h3>
         </div>
-      ))}
+      ) : (
+        <>
+          <div className="imgDv">
+            <img className="imgBg" src="" alt="" />
+          </div>
+          <div className="searchDiv">
+            <input
+              className="search"
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="search"
+            />
+            <FaSearch className="searchIcon" />
+          </div>
+          <div className="grid">
+            {coins.filter((searchCoin) => searchCoin.name.toLowerCase()
+              .includes(search.toLowerCase())
+              || searchCoin.symbol.toLowerCase().includes(search.toLowerCase()))
+              .map((coins) => (
+                <div className=" sec1" key={coins.id}>
+                  <NavLink className="coinLink" state={coins} to="/display">
+                    <Display
+                      key={coins.id}
+                      img={coins.image}
+                      id={coins.id.toUpperCase()}
+                      name={coins.name}
+                      symbol={coins.symbol.toUpperCase()}
+                      atl={coins.atl}
+                      price={coins.current_price}
+                    />
+                  </NavLink>
+                </div>
+              ))}
+          </div>
+        </>
+      )}
     </div>
   );
 };

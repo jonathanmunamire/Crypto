@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const Display = ({
   name, price, symbol, img,
 }) => (
-  <section>
-    <img src={img} alt={`${name}icon`} />
+  <section className="mainDetails">
+    <img className="img" src={img} alt={`${name}icon`} />
     <p>{name}</p>
     <p>{symbol}</p>
     <p>
@@ -18,7 +18,7 @@ export default Display;
 
 Display.propTypes = {
   name: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
+  price: PropTypes.string.isRequired,
   symbol: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
 };
