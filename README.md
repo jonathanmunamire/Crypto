@@ -85,6 +85,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://crypto-jonmun.netlify.app/)
+- [Presentation Video](https://www.loom.com/share/451c08da74a7494eb318ea7e8bc053e2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
