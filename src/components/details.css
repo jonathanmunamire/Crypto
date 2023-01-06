@@ -1,0 +1,21 @@
+.detail_image_section {
+  text-align: center;
+}
+
+.detail_image {
+  height: 4rem;
+}
+
+.detail_page {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.detail_page span {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  color: rgb(219, 37, 128);
+  padding: 1rem;
+}
